@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "27804856",
+      "name": "@我",
+      "font_class": "a-wo",
+      "unicode": "100ab",
+      "unicode_decimal": 65707
+    },
+    {
+      "icon_id": "27804857",
+      "name": "公文包",
+      "font_class": "gongwenbao",
+      "unicode": "100ac",
+      "unicode_decimal": 65708
+    },
+    {
+      "icon_id": "27804858",
+      "name": "存储",
+      "font_class": "cunchu",
+      "unicode": "100ad",
+      "unicode_decimal": 65709
+    },
+    {
+      "icon_id": "27804862",
+      "name": "促销",
+      "font_class": "cuxiao",
+      "unicode": "100ae",
+      "unicode_decimal": 65710
+    },
+    {
+      "icon_id": "27804863",
+      "name": "冠军",
+      "font_class": "guanjun",
+      "unicode": "100af",
+      "unicode_decimal": 65711
+    }
+  ]
+}
