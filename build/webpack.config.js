@@ -2,11 +2,10 @@
  * @Descripttion: 
  * @Author: zhy
  * @Date: 2022-04-02 11:43:36
- * @LastEditTime: 2022-04-05 19:48:08
+ * @LastEditTime: 2022-04-05 19:56:20
  */
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 const isDev = process.env.NODE_ENV === 'dev';
@@ -31,7 +30,6 @@ const config = {
         test: /\.(s[ac]|c)ss$/i,
         use: [
           'vue-style-loader',
-          // isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',
           'postcss-loader',
           'sass-loader',
